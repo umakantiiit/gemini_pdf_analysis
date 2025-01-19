@@ -124,7 +124,7 @@ uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"], accept_multi
 model_option = st.selectbox("Select Model", [
     "Gemini 1.5 pro",
     "Gemini 1.5 Flash",
-    "Gemini 1.5 flash 8b"
+    "Gemini 1.5 flash 8b",
     "Gemini 2.0 Flash Exp"
 ])
 
