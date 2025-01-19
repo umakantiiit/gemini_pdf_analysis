@@ -125,12 +125,14 @@ model_option = st.selectbox("Select Model", [
     "Gemini 1.5 pro",
     "Gemini 1.5 Flash",
     "Gemini 1.5 flash 8b"
+    "Gemini 2.0 Flash Exp"
 ])
 
 model_name_map = {
     "Gemini 1.5 pro": "gemini-1.5-pro-002",
     "Gemini 1.5 Flash": "gemini-1.5-flash-002",
     "Gemini 1.5 flash 8b": "gemini-1.5-flash-8b-001"
+    "Gemini 2.0 Flash Exp": "gemini-2.0-flash-exp"
 }
 
 if uploaded_file is not None:
